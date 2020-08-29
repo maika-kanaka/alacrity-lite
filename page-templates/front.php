@@ -14,19 +14,8 @@ get_header(); ?>
 	<div class="slider-main">
 		<div id="slider">
 			<div class="nivoSlider" style="height: auto;">
-				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider3.jpg" alt="" title="<h2> BERINOVASI </h2> <div> Terus dan terus berinovasi </div>" />
-				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider2.jpg" alt="" title="<h2> SOLUSI </h2> <div> Terus dan terus berinovasi </div> " />
-				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider1.jpg" alt="" title="<h2> SOLUSI </h2> <div> Terus dan terus berinovasi </div> "/>
-			</div>
-
-			<div id="slidecaption1" class="nivo-html-caption">								
-			<a href="#">
-				<h2><span>WELCOME TO ALACRITY</span> EXPERT FINANCIAL ADVICE</h2>
-			</a>																		
-			<p>
-			Lorem ipsum dolor sit amet, no mollis regione accusamus qui. Legere voluptua mei an, possim aliquid utroque et ius, molestie iracundia id sea. Debitis maksu rez viu id.
-			</p>												
-			<a class="button" href="#">READ MORE</a>
+				<img src="https://migunesia.com/wp-content/uploads/2020/08/machine-learning.png" alt="" title="<h2> BERINOVASI </h2> <div> Terus dan terus berinovasi </div>" />
+				<img src="https://migunesia.com/wp-content/uploads/2020/08/solution.png" alt="" title="<h2> SOLUSI </h2> <div> yang kemudian akan memberikan solusi </div> " />
 			</div>
 		</div>
 	</div>
@@ -82,7 +71,9 @@ get_header(); ?>
 	<?php endwhile; 
 	}
 	endif;
-} else { ?>
+	?>
+
+<?php } else { ?>
 <div class="container">
 	<?php
 	if ( have_posts() ) : while ( have_posts() ) : the_post();
