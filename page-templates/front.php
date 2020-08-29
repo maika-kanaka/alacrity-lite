@@ -10,6 +10,18 @@ get_header(); ?>
 
 <div id="primary" class="site-content">
 
+	<!-- START: modif bif (slider) -->
+	<div id="slider">
+		<div class="nivoSlider" style="height: auto;">
+			<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider3.jpg" alt="" />
+			<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider2.jpg" alt="" />
+			<a href="http://dev7studios.com">
+				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider1.jpg" alt="" title="Go to NIVO" />
+			</a>
+		</div>
+	</div>
+	<!-- END: modif bif (slider) -->
+
 	<div id="content" role="main">
 	<?php 		
 	if (!is_home() && is_front_page()) { 
