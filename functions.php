@@ -200,7 +200,7 @@ function alacrity_lite_social_links() { ?>
             <a href="<?php echo esc_url($linked_link); ?>" target="_blank" class="fa fa-linkedin fa-1x" title="<?php esc_attr_e('Linkedin','alacrity-lite'); ?>"></a>
         <?php } ?>
         <?php if (!empty($pinterest_link)) { ?>
-            <a href="<?php echo esc_url($pinterest_link); ?>" target="_blank" class="fa fa-pinterest fa-1x" title="<?php esc_attr_e('Pinterest','alacrity-lite'); ?>"></a>
+            <a href="<?php echo esc_url($pinterest_link); ?>" target="_blank" class="fa fa-instagram fa-1x" title="<?php esc_attr_e('Instagram','alacrity-lite'); ?>"></a>
         <?php } ?>            
     </div>
 <?php }
@@ -255,3 +255,14 @@ if( ! function_exists( 'alacrity_lite_excerpt' ) ):
 endif;
 
 // alacrity_lite_excerpt(40); 
+
+function custom_instagram_settings($code){
+    if(strpos($code, 'instagr.am') !== false || strpos($code, 'instagram.com') !== false){ // if instagram embed
+            $return = preg_replace("@data-instgrm-captioned@", "", $code); // remove caption class
+            return $return;
+    }
+    return $code;
+}
+
+add_filter('embed_handler_html', 'custom_instagram_settings');
+add_filter('embed_oembed_html', 'custom_instagram_settings');

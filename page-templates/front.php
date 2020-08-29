@@ -62,7 +62,7 @@ get_header(); ?>
 		<div class="container">
         <h2 class="sec-title"><?php printf( '<a href="%s">%s</a>', esc_url( get_permalink() ), esc_html( get_the_title() ) );?></h2>
 	 		<div class="col_left_eq col_2">
-	 			<div class="sec-content"><?php echo strip_tags(alacrity_lite_excerpt(10),'alacrity-lite');?></div>
+	 			<div class="sec-content"><?php echo strip_tags(alacrity_lite_excerpt(100),'alacrity-lite<p><b><strong><u><em>');?></div>
 	 			<a href="<?php the_permalink();?>" class="border_btn"><?php esc_html_e('READ MORE', 'alacrity-lite');?></a>
 	 		</div>
 	        <div class="col_right_eq col_2"><div class="feat_thumb"><?php the_post_thumbnail();?></div></div>
