@@ -1,0 +1,18 @@
+/**
+* FULL WIDTH PAGE
+*/
+
+.page-template-full-width .entry-header {
+    width: 100%;
+}
+.page-template-full-width h1.entry-title {
+    text-align: center !important;
+}
+
+/**
+* PAGE PRODUCT - BUKUTAMU.MM
+*/
+
+.page-id-59 .content-column.one_third img {
+    padding-left: 35px;
+}
