@@ -11,13 +11,23 @@ get_header(); ?>
 <div id="primary" class="site-content">
 
 	<!-- START: modif bif (slider) -->
-	<div id="slider">
-		<div class="nivoSlider" style="height: auto;">
-			<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider3.jpg" alt="" />
-			<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider2.jpg" alt="" />
-			<a href="http://dev7studios.com">
-				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider1.jpg" alt="" title="Go to NIVO" />
-			</a>
+	<div class="slider-main">
+		<div id="slider">
+			<div class="nivoSlider" style="height: auto;">
+				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider3.jpg" alt="" title="<h2> BERINOVASI </h2> <div> Terus dan terus berinovasi </div>" />
+				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider2.jpg" alt="" title="<h2> SOLUSI </h2> <div> Terus dan terus berinovasi </div> " />
+				<img src="https://www.risingthemes.net/demo/alacrity/wp-content/themes/alacrity-pro/images/slides/slider1.jpg" alt="" title="<h2> SOLUSI </h2> <div> Terus dan terus berinovasi </div> "/>
+			</div>
+
+			<div id="slidecaption1" class="nivo-html-caption">								
+			<a href="#">
+				<h2><span>WELCOME TO ALACRITY</span> EXPERT FINANCIAL ADVICE</h2>
+			</a>																		
+			<p>
+			Lorem ipsum dolor sit amet, no mollis regione accusamus qui. Legere voluptua mei an, possim aliquid utroque et ius, molestie iracundia id sea. Debitis maksu rez viu id.
+			</p>												
+			<a class="button" href="#">READ MORE</a>
+			</div>
 		</div>
 	</div>
 	<!-- END: modif bif (slider) -->
