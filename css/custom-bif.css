@@ -10,9 +10,13 @@
 }
 
 /**
-* PAGE PRODUCT - BUKUTAMU.MM
+* PAGE ARTICLE 
 */
 
-.page-id-59 .content-column.one_third img {
-    padding-left: 35px;
+@media(min-width: 768px)
+{
+    body.blog .post-thumb {
+        width: 100%;
+    }
 }
+
