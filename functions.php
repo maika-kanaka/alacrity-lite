@@ -50,8 +50,8 @@ function alacrity_lite_setup() {
 
 	// This theme supports custom logo
 	add_theme_support( 'custom-logo', array(
-	'height'      => 100,
-	'width'       => 300,
+	'height'      => 60,
+	'width'       => 250,
     'header-selector' => '.site-title',
 	'header-text'     => true,
 	'flex-height'     => true,
