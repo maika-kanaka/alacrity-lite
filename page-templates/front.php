@@ -41,7 +41,7 @@ get_header(); ?>
 							<div class="service-img"><?php the_post_thumbnail();?></div>
                             <?php } ?>
 							<h3><?php echo esc_html(get_the_title()); ?></h3>
-							<p><?php echo strip_tags(alacrity_lite_excerpt(20) ,'alacrity-lite');?></p>
+							<p><?php echo strip_tags(alacrity_lite_excerpt(100) ,'alacrity-lite');?></p>
 							<a href="<?php the_permalink();?>" class="ser-read"><?php esc_html_e('READ MORE', 'alacrity-lite');?></a>
 						</div>		
 					</div>
