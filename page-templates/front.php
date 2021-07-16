@@ -40,7 +40,7 @@ get_header(); ?>
                         	<?php if ( has_post_thumbnail() ) { ?>
 							<div class="service-img"><?php the_post_thumbnail();?></div>
                             <?php } ?>
-							<h3><?php printf( '<a href="%s">%s</a>', esc_url( get_permalink() ), esc_html( get_the_title() ) );?></h3>
+							<h3><?php echo esc_html(get_the_title()); ?></h3>
 							<p><?php echo strip_tags(alacrity_lite_excerpt(20) ,'alacrity-lite');?></p>
 							<a href="<?php the_permalink();?>" class="ser-read"><?php esc_html_e('READ MORE', 'alacrity-lite');?></a>
 						</div>		
