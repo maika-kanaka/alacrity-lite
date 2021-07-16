@@ -60,10 +60,10 @@ get_header(); ?>
 	while ($about_query->have_posts()) : $about_query->the_post(); ?>
 	<section id="about_container" class="row">
 		<div class="container">
-        <h2 class="sec-title"><?php printf( '<a href="%s">%s</a>', esc_url( get_permalink() ), esc_html( get_the_title() ) );?></h2>
+        <h2 class="sec-title"><?php printf( '<a href="https://migunesia.com/tentang-migunesia">%s</a>', esc_html( get_the_title() ) );?></h2>
 	 		<div class="col_left_eq col_2">
 	 			<div class="sec-content"><?php echo strip_tags(alacrity_lite_excerpt(100),'alacrity-lite<p><b><strong><u><em>');?></div>
-	 			<a href="https://migunesia.com/tentang-kami" class="border_btn">
+	 			<a href="https://migunesia.com/tentang-migunesia" class="border_btn">
 				 <?php esc_html_e('READ MORE', 'alacrity-lite');?>
 				</a>
 	 		</div>
