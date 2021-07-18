@@ -96,7 +96,10 @@ get_header(); ?>
 }
 	?>
 
-	<?php echo get_the_content(); ?>
+	<?php 
+		wp_reset_postdata();
+		echo get_the_content(); 
+	?>
 	</div><!-- .conatiner -->
    </div><!-- #content -->
 </div><!-- #primary -->
