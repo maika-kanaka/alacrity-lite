@@ -95,6 +95,8 @@ get_header(); ?>
     endif;
 }
 	?>
+
+	<?php echo get_the_content(); ?>
 	</div><!-- .conatiner -->
    </div><!-- #content -->
 </div><!-- #primary -->
