@@ -13,8 +13,8 @@ get_header(); ?>
 	<!-- START: modif bif (slider) -->
 	<div class="slider-main">
 		<div id="slider">
-			<div class="nivoSlider" style="height: auto;">
-				<img src="https://migunesia.com/wp-content/uploads/2020/08/solution.png" alt="Event buku tamu digital dengan bukutamu mm" title="<h2> ONE STOP SOLUTION </h2> <div> Berdidikasi penuh di event pernikahan, seminar & event formal lainnya </div>" />
+			<div class="nivoSlider">
+				<img src="https://migunesia.com/wp-content/uploads/2020/08/solution.png" alt="Event buku tamu digital dengan bukutamu mm" title="<h2> ONE STOP SOLUTION </h2> <div> Perusahaan teknologi yang berdidikasi penuh di event pernikahan, seminar & event formal lainnya </div>" />
 				<img src="https://migunesia.com/wp-content/uploads/2021/07/photo_2021-07-18_11-50-52.jpg" alt="" title="<h2> INOVASI & KREATIFITAS = SOLUSI </h2> <div> Memanfaatkan teknologi untuk membuat acara berharga anda menjadi lebih efisien, efektif dan mewah </div> " />
 			</div>
 		</div>
