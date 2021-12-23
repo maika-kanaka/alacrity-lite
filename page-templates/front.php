@@ -70,6 +70,10 @@ get_header(); ?>
 	        <div class="col_right_eq col_2"><div class="feat_thumb"><?php the_post_thumbnail();?></div></div>
 	    </div>
 	</section><!--About-section-->
+		
+	<section id="client_us" class="row">
+		<?php echo do_shortcode('[logocarousel id="575"]'); ?>
+	</section>
 	<?php endwhile; 
 	}
 	endif;
