@@ -5,6 +5,7 @@
         padding-top: 40px;
         padding-bottom: 20px;
         margin-bottom: 70px;
+        border-top: 5px solid #f8f9fc;
         border-bottom: 5px solid #f8f9fc;
     }
 
@@ -14,6 +15,10 @@
         line-height: 1.7em;
         margin: 0 auto;
         margin-bottom: 40px;
+    }
+
+    #products .list-product {
+        margin-bottom: 27px;
     }
 
     #products .list-product img {
