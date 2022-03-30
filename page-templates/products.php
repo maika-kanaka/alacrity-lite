@@ -112,7 +112,7 @@
         <div class="wp-block-columns">
             <div class="wp-block-column list-product">
                 <div class="logo">
-                    <img src="https://migunesia.com/wp-content/uploads/2022/03/instagram-live.png" alt="">
+                    <img src="https://migunesia.com/wp-content/uploads/2022/03/live.png" alt="">
                 </div>
 
                 <h3 class="title">
