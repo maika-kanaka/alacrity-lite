@@ -132,7 +132,7 @@
 
             <div class="wp-block-column list-product">
                 <div class="logo">
-                    <img src="https://migunesia.com/wp-content/uploads/2022/03/sohouse-migunesia-white.png" alt="" style="width: 170px;">
+                    <img src="https://migunesia.com/wp-content/uploads/2022/03/sohouse-migunesia.png" alt="" style="width: 170px;">
                 </div>
 
                 <h3 class="title">
