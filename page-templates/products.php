@@ -58,7 +58,7 @@
                 </h3>
 
                 <div class="desc">
-                    QR Code | Sesi / No Meja | Layar Sapa | Smart Voice | Doorprize | Realtime Notification
+                    QR Code | Sesi / No Meja | Layar Sapa | Smart Voice | Doorprize | Realtime Notification | Print label angpau / no meja
                 </div>
 
                 <div class="action">
