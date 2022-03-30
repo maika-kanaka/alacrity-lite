@@ -71,6 +71,8 @@ get_header(); ?>
             </div>
         </section><!--About-section-->
 
+        <?php include 'products.php'; ?>
+
 <section id="client_us" class="row">
 <h2> Client Kami </h2>
                 <?php echo do_shortcode('[logocarousel id="575"]'); ?>
