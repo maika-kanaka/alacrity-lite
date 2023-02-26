@@ -10,6 +10,7 @@ get_header(); ?>
 
 <div id="primary" class="site-content">
 
+<!-- modif bif -->
 <style>
 @media (max-width: 480px)
 {
@@ -30,6 +31,10 @@ get_header(); ?>
         .nivo-caption h2 {
                 font-size: 35px;
                 margin-bottom: 0px;
+        }
+
+        .servicebox {
+                width: 50%;
         }
 }
 </style>
