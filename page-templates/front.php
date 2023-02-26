@@ -20,7 +20,11 @@ get_header(); ?>
         }
 
         .nivo-directionNav a {
-                bottom: 5px;
+                bottom: 5%;
+    TOP: AUTO;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
         }
 
         .nivo-caption h2 {
