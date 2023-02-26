@@ -41,4 +41,12 @@ get_header();
 	</main><!-- #main -->
 </div><!-- #primary -->
 
+<!-- modif bif -->
+<script>
+	$($("#colophon .social-icons a")[0]).removeClass('fa-twitter');
+	$($("#colophon .social-icons a")[0]).html(`
+	<img src="https://migunesia.com/wp-content/uploads/2023/02/tiktok-1.png">
+	`);
+</script>
+
 <?php get_footer(); ?>
