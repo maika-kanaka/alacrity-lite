@@ -10,6 +10,26 @@ get_header(); ?>
 
 <div id="primary" class="site-content">
 
+<style>
+@media (max-width: 480px)
+{
+        .nivo-caption {
+                top: 75%;
+                background: rgba(0,0,0,.3);
+                padding: 10px;
+        }
+
+        .nivo-directionNav a {
+                bottom: 5px;
+        }
+
+        .nivo-caption h2 {
+                font-size: 35px;
+                margin-bottom: 0px;
+        }
+}
+</style>
+
         <!-- START: modif bif (slider) -->
         <div class="slider-main">
                 <div id="slider">
