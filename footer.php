@@ -8,6 +8,16 @@
  */
 ?>
 </div> <!-- #page -->
+<!-- modif bif -->
+<script>
+	document.addEventListener("DOMContentLoaded", function(event) { 
+		$($("#colophon .social-icons a")[0]).removeClass('fa-twitter');
+	$($("#colophon .social-icons a")[0]).html(`
+	<img src="https://migunesia.com/wp-content/uploads/2023/02/tiktok-1.png">
+	`);
+});
+</script>
+
 <footer id="colophon" class="site-footer" role="contentinfo">
     	<div class="row footer-top">    			
     		<div class="container">
