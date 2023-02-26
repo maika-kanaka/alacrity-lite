@@ -150,5 +150,29 @@
                 </div>
             </div>
         </div>
+
+        <div class="list-product">
+            <div class="logo">
+                <img src="https://migunesia.com/wp-content/uploads/2023/02/camera.png" alt="" style="width: 75px;">
+            </div>
+
+            <h3 class="title">
+                Photobooth
+            </h3>
+
+            <div class="desc">
+                Photobooth Cetak | Photobooth 360 / Spin 360 | Photobooth Keliling
+            </div>
+
+            <div class="action">
+                <a href="https://migunesia.com/photobooth-unlimited/" class="border_btn">
+                    Detail (cetak)
+                </a>
+
+                <a href="https://migunesia.com/photobooth-360/" class="border_btn">
+                    Detail (Spin360)
+                </a>
+            </div>
+        </div>
     </div>
 </section>
