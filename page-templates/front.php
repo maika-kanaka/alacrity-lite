@@ -12,8 +12,16 @@ get_header(); ?>
 
 <!-- modif bif -->
 <style>
-@media (max-width: 480px)
+        .feat_thumb iframe {
+                width: 560px;
+                height: 315px;
+        }
+@media (max-width: 600px)
 {
+        .feat_thumb iframe {
+                width: 100%;
+                height: 315px;
+        }
         .nivo-caption {
                 top: 75%;
                 background: rgba(0,0,0,.3);
@@ -99,7 +107,7 @@ get_header(); ?>
                         </div>
                 <div class="col_right_eq col_2">
                         <div class="feat_thumb">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/CGzRdwi7Yd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/CGzRdwi7Yd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                 </div>
             </div>
