@@ -15,6 +15,7 @@ get_header(); ?>
                 <div id="slider">
                         <div class="nivoSlider">
                                 <img src="https://migunesia.com/wp-content/uploads/2021/07/photo_2021-07-18_11-50-52.jpg" alt="" title="<h2> INOVASI & KREATIFITAS = SOLUSI </h2> <div> Memanfaatkan teknologi untuk membuat acara berharga anda menjadi lebih efisien, efektif dan mewah </div> " />
+                                <img src="https://migunesia.com/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-08-at-20.30.08-1.jpeg" alt="" title="<h2> Sistem Registrasi Event </h2> <div> Sistem registrasi event dengan teknologi tercanggih </div> " />
                                 <img src="https://migunesia.com/wp-content/uploads/2020/08/solution.png" alt="Event buku tamu digital dengan bukutamu mm" title="<h2> ONE STOP SOLUTION </h2> <div> Perusahaan teknologi yang berdidikasi penuh di event pernikahan, seminar & event formal lainnya </div>" />
                         </div>
                 </div>
