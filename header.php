@@ -16,6 +16,7 @@
 <?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php endif; ?>   
+<meta name="msvalidate.01" content="E0D95C22EE9209ED0547E1D85566024E" />
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
