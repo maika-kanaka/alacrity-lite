@@ -53,7 +53,7 @@ get_header(); ?>
                         <div class="nivoSlider">
                                 <img src="https://migunesia.com/wp-content/uploads/2021/07/photo_2021-07-18_11-50-52.jpg" alt="" title="<h2> INOVASI & KREATIFITAS = SOLUSI </h2> <div> Memanfaatkan teknologi untuk membuat acara berharga anda menjadi lebih efisien, efektif dan mewah </div> " />
                                 <img src="https://migunesia.com/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-08-at-20.30.08-1.jpeg" alt="" title="<h2> Sistem Registrasi Event </h2> <div> Sistem registrasi event dengan teknologi tercanggih </div> " />
-                                <img src="https://migunesia.com/wp-content/uploads/2020/08/solution.png" alt="Event buku tamu digital dengan bukutamu mm" title="<h2> ONE STOP SOLUTION </h2> <div> Perusahaan teknologi yang berdidikasi penuh di event pernikahan, seminar & event formal lainnya </div>" />
+                                <img src="https://migunesia.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-27-at-14.26.01-1.jpeg" alt="Event buku tamu digital dengan bukutamu mm" title="<h2> Sistem Sudah TerUJI </h2> <div> Ribuan event sudah menggunakan migunesia </div>" />
                         </div>
                 </div>
         </div>
@@ -107,7 +107,7 @@ get_header(); ?>
                         </div>
                 <div class="col_right_eq col_2">
                         <div class="feat_thumb">
-                        <iframe src="https://www.youtube.com/embed/CGzRdwi7Yd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/68B40QYkKzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                 </div>
             </div>
